@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HOME (SIL)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+ 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: pacifico;
+            line-height: 1.6;
+            background-color:paleturquoise;
+            padding: 20px;
+            font-size:large;
+        }
+
+        header {
+            background-color: black;
+            color: #fff;
+            padding: 10px 0; 
+            text-align: center;
+            margin-bottom: px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        nav ul li {
+            display: inline-block; 
+            margin-right: 20px;
+            vertical-align: middle; 
+        }
+
+        nav ul li.logo img {
+            vertical-align: middle; 
+            border-radius: 50%; 
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+     
+        .hero {
+           background-color: #eaeaf0; 
+            min-height: 350px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 10px; 
+            background-image: url("sessooo.gif");
+            background-size: cover;
+            background-position: center;
+            border-bottom-left-radius: 3%;
+            border-bottom-right-radius: 3%;
+        }
+
+        .container {
+            width: 100%;
+            padding: 0 20px; 
+            box-sizing: border-box;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: black; 
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px; 
+        }
+
+   
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+      
+        .truncate-text {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; 
+            -webkit-box-orient: vertical;
+            margin-bottom: 20px;
+            color: blueviolet;
+            font-family: pacifico;
+            font-style:italic;
+        }
+
+        .truncate-text.expanded {
+            -webkit-line-clamp: unset;
+        }
+
+        .expand-link {
+            color: blue;
+            cursor: pointer;
+           
+        }
+
+    
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+        }
+
+        
+        .video-responsive {
+            max-width: 100%;
+            height: auto;
+           
+        }
+
+     
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px; 
+        }
+
+        .social-media-icons img {
+            max-width: 25px; 
+            height: auto;
+            margin: 0 10px; 
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color:blueviolet;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 10px; 
+            border-radius: 50%;
+        }
+
+        
+        .product-table {
+            width: 80%;
+            margin-top: 20px;
+            margin-left: 120px;
+            border-radius: 10%;
+            border-collapse: collapse;
+          
+        }
+
+        .product-table th, .product-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .product-table th {
+            background-color: #f2f2f2;
+        }
+
+        .product-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+      
+        .special-gif {
+            margin: 10px; 
+            border: 2px solid #000; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-info {
+            text-align: center;
+            margin: 40px auto; 
+            width: 50%; 
+        }
+
+        .contact-info h4 {
+            margin-bottom: 6px; 
+        }
+
+        .contact-info p {
+            margin: 6px 0; 
+        }
+        .fo{
+            color:whitesmoke;
+            font-family: pacifico;
+       
+        }
+        .haa{
+            color: darkblue;
+            font-style:italic;
+        }
+        .red{
+            color: red;
+            font-family: pacifico;
+       
+        }
+        td{
+            font-style: italic;
+        }
+        p{
+            font-style: italic;
+        }
+        .vd{
+            border-radius: 5%;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+        }
+        .gh{
+            margin: 10px; 
+            
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="sesirolog.PNG">
+                <li class="logo"><img src="sesirolog.PNG" width="50" height="50" alt="logo"></li>
+                </a>
+                <li><a href="News.html">News</a></li>
+                <li><a href="contact us.html">Contact</a></li>
+                <li><a href="About SIL.html">About us</a></li>
+                <li><a href="https://wa.link/f8yyja"><img src="HZOI2765.JPG" alt="WhatsApp" width="25" height="25"></a></li>
+                <li><a href="http://www.youtube.com/@SesiroInvestmentLtd"><img src="JYYE3525.JPG" alt="YouTube" width="25" height="25"></a></li>
+                <li><a href="https://www.tiktok.com/@sesiroinvestments?_t=8pvKdimDO3J&_r=1"><img src="MNKD2875.JPG" alt="TikTok" width="25" height="25"></a></li>
+                <li><a href="https://www.facebook.com/sesiroinvestmentlimited"><img src="JHKQ6201.JPG" alt="Facebook" width="25" height="25"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="hero">
+        <div class="container">
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="haa">Welcome to Sesiro Investments Limited.(SIL)</h2>
+        <p class="truncate-text" id="truncate-text">
+            Sesiro Investments Limited is your go-to destination for all hardware-related. We specialize in providing a comprehensive range of tools and equipment tailored to meet the needs of professionals. Our commitment to quality, reliability, and customer satisfaction sets us apart in the competitive hardware market. At Sesiro Investments limited,
+             we understand the importance of having the right tools for every job. Whether you're tackling a major construction project, performing routine maintenance, or simply working on a home improvement task, we have the tools you need to get the job done efficiently and effectively. Our product range includes everything from hand tools and power tools accessories, Glasses, and all kinds of welding products.
+              <br>We partner with leading brands known for their durability and performance, ensuring that our customers have access to the best tools available on the market. In addition to our extensive product selection, 
+              Sesiro investments limited(SIL) prides itself on providing exceptional customer service. Our knowledgeable staff members are here to offer expert advice, answer questions, and help you find the perfect tools for your specific needs. We believe in building lasting relationships with our customers based on trust, integrity, and reliability.
+        </p>
+        <p id="expand-link" class="expand-link">Read more...</p>
+        <video class="vd" width="400" height="300" controls>
+        <source src="sesiro workshop.mp4" type="video/mp4">
+        </video>
+        <a href="cutting discs.jpg">
+       <img src="cutting discs.jpg" class="gh" width="290" height="290" alt="cutting disk" >
+       </a>
+       <a href="weld g.JPG">
+       <img src="weld g.JPG" class="gh" width="290" height="290" alt="welding machine">
+    </a>
+    <a href="iron sheet 3.JPG">
+        <img src="iron sheet 3.JPG" class="gh" width="290" height="290" alt="iron sheet">
+     </a>
+ 
+
+        <h2 class="haa">Products</h2>
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th class="red">Category</th>
+                    <th class="red">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="Hand tools best.html">Hand Tools</a></td>
+                    <td>From precision screwdrivers to heavy-duty wrenches, Protective gear for various industries,<br>
+                        such as Safety boots, Welding glasses, Overalls, Reflectors, Gloves, etc.</td>
+                </tr>
+                <tr>
+                    <td><a href="Power tools.html">Power Tools</a><br>
+                    <a href="Building materials.html">Building Materials</a></td>
+                    <td>At Sesiro Investment Ltd, we have a variety of power tools and building materials at quality and affordable prices such as Drills, welding machines, Grinders, sanders, wood machines, and many others.</td>
+                </tr>
+                <tr>
+                    <td><a href="welding pros.html">Welding Products</a><br>
+                    <a href="Outdoor equipments.html">Outdoor Equipments</a></td>
+                    <td>Structural steel, Residential gates, Sliding doors, Windows, Aluminum frames, Kiosks, Wall fences, School beds, Home deckers, Staircases and more, Storage solutions, Car parkings, Pergolas at Sesiro Investment Ltd you can get everything for your project.</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <img src="matalz.gif" width="310" height="250" alt="welding products" class="special-gif">
+        <img src="build.gif" width="310" height="250" alt="" class="special-gif">
+        <img src="powertools.gif" width="310" height="250" alt="power tools" class="special-gif">
+        <img src="out.gif" width="310" height="250" alt="outdoor equip" class="special-gif">
+       
+        <br>
+        <div class="contact-info">
+           <p>Tel:</p>
+           <ul>
+            <p><a href="tel:+256774885716">+256 774885716</a></p>
+            <p><a href="tel:+256779032534">+256 779032534</a></p>
+            <p>Email:<a href="mailto:sesiroinvestments@gmail.com">sesiroinvestments@gmail.com</a></p>
+            <p>Adress: P.O Box 170563 Luwero.</p>
+        </ul>
+    </div>
+      
+    <footer>
+        <p class="fo"><marquee behavior="alternate" >© 2023 Sesiro Investments Limited (SIL). All rights reserved.
+             Designed by Ivan Bob @<a href="https://wa.link/x93r95">+256787868854</a></marquee>
+         </p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var truncateText = document.getElementById("truncate-text");
+            var expandLink = document.getElementById("expand-link");
+
+    
+            if (truncateText.scrollHeight > truncateText.clientHeight) {
+                expandLink.style.display = "block"; 
+            }
+
+            
+            expandLink.addEventListener("click", function() {
+                if (truncateText.classList.contains("expanded")) {
+                    truncateText.classList.remove("expanded");
+                    expandLink.textContent = "Read more...";
+                } else {
+                    truncateText.classList.add("expanded");
+                    expandLink.textContent = "Read less";
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

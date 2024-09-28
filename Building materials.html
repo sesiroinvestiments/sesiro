@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building materials</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-style: italic;
+            line-height: 1.6;
+            background-color: paleturquoise;
+            padding: 20px;
+        }
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
+nav ul li.logo {
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+nav ul li.logo img {
+    vertical-align: middle; 
+    border-radius: 50%; 
+}
+
+       
+        .hero {
+            background-color: #b0e0e6; 
+            min-height: 400px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px; 
+            background-image: url("buildings.gif");
+            background-size: cover;
+            background-position: center;
+            border-bottom-left-radius: 3%; 
+            border-bottom-right-radius: 3%;
+
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section {
+            background-color: #fff;
+            margin-bottom: 20px; 
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        h4 {
+            color: blue; 
+        }
+
+        li {
+            font-style: italic; 
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .background-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0.3; 
+            z-index: -1; 
+            background-size: 60%;
+            background-position: center;
+        }
+        .gazebo-content {
+            position: relative;
+            z-index: 1; 
+            padding: 20px;
+        }
+        
+        .contact-info {
+            text-align: center;
+            margin: 40px auto; 
+            width: 50%; 
+        }
+
+        .contact-info h4 {
+            margin-bottom: 6px; 
+        }
+
+        .contact-info p {
+            margin: 6px 0; 
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px; 
+          }
+          .social-media-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px; 
+        }
+
+        .social-media-icons img {
+            max-width: 25px;
+            height: auto;
+            margin: 0 10px; 
+        }
+       .d{
+        color: blue;
+       }
+       .p{
+        color: blueviolet;
+       }
+       img{
+        border-radius: 10%;
+    
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><img src="sesirolog.PNG" width="50px" height="50px" alt="logo"></img></li>
+                <li><a href="HOMES.HTML">HOME</a></li>
+                <li><a href="#CEMENT">CEMENT</a></li>
+                <li><a href="#PAINTS">PAINTS</a></li>
+                <li><a href="#PLUMBING SUPPLIES">PLUMBING SUPPLIES</a></li>
+                <li><a href="#ELECTRICAL SUPPLIES">ELECTRICAL SUPPLIES</a></li>
+                <li><a href="#GLASSES AND SERVICES">GLASSES AND SERVICES</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="hero"></div>
+        <div class="hero-content">
+            <h2 class="d">Building Materials</h2>
+            <p class="p">At Sesiro Investments limited (SIL), we offer a wide range of high-quality building materials for all your construction needs. Below are some of the materials available:</p>        
+    </div>
+     <br>
+    <section id="CEMENT" class="section">
+        <div class="gazebo-content">
+            <div class="background-image" style="background-image: url('cement.jpeg');"></div>
+        
+        <h4>Cement</h4>
+        <p>Cement is a key component in concrete and mortar. We offer various types of cement including Ordinary Portland Cement,
+        <br> General-purpose cement used for most construction needs,basically for foundation, walls,pavements and structural elements</p>
+       <br>
+        <h4>types</h4>
+        <li>Hima cement</li>
+        <li>Toro cement</li>
+    
+    </section>
+
+    <section id="STEEL BARS" class="section">
+        <div class="gazebo-content">
+            <div class="background-image" style="background-image: url('ironbars.JPG');"></div>
+        
+        <h4>Steel Reinforcement</h4>
+        <br>
+       <h4> Description:</h4>
+        <li> Steel bars or mesh used to reinforce concrete, providing strength and durability.</li>
+        <br>
+         <h4> Types:</h4>
+        <li>Rebar (Reinforcing Bar): Steel rods used to strengthen concrete structures.</li>
+        <li> Steel Mesh: Grid-like structure used to reinforce concrete slabs.</li>
+        <br>
+        <h4>Uses: </h4><li>Foundations, columns, beams, and slabs.</li>
+    </section>
+
+    <section id="PAINTS" class="section">
+        <div class="gazebo-content">
+            <div class="background-image" style="background-image: url('paint.jpg');"></div>
+     
+        <h4>Paints and Finishes</h4>
+        
+       <h4> Latex Paint:</h4>
+           <li> Characteristics: Water-based, easy to clean, fast-drying, and low odor.</li>
+            <li>Types: Matte, eggshell, satin, semi-gloss, and gloss finishes.</li>
+           <li> Uses: Walls, ceilings, and trim in residential and commercial interiors.</li>
+           <br>
+        <h4>Oil-Based Paint:</h4>
+            <li>Characteristics: Solvent-based, durable, and provides a smooth finish.</li>
+            <li>Types: Gloss and semi-gloss finishes.</li>
+           <li> Uses: High-traffic areas, trim, and cabinetry.</li>
+           <br>
+       <h4> Primer Paint:</h4>
+            <li>Characteristics: Seals and prepares surfaces for better adhesion of topcoats.</li>
+            <li>Types: Oil-based, latex-based, and stain-blocking primers.</li>
+           <li> Uses: Undercoat for walls, ceilings, and new or patched surfaces.</li>
+<br>
+   <h3> Exterior Paints</h3>
+        <h4>Acrylic Paint:</h4>
+           <li> Characteristics: Water-based, flexible, and resistant to fading and weather conditions.</li>
+           <li> Types: Matte, satin, and gloss finishes.</li>
+           <li> Uses: Exterior walls, sidings, and trim.</li>
+       <br>
+       
+           <h4>Oil-Based Paint:</h4>
+          <li>  Characteristics: Provides a durable and long-lasting finish, resistant to harsh weather.</li>
+           <li> Types: Gloss and semi-gloss finishes.</li>
+           <li> Uses: Woodwork, metal surfaces, and areas exposed to extreme weather.</li>
+     <br>
+    <h3>Finish Types</h3>
+        <h4>Matte Finish:</h4>
+           <li> Characteristics: Non-reflective, hides imperfections well.</li>
+           <li> Uses: Walls and ceilings for a smooth, even appearance.</li>
+           <br>
+     
+        <h4>Satin Finish:</h4>
+           <li> Characteristics: Soft sheen, more durable and washable.</li>
+           <li> Uses: High-traffic areas, kitchens, and bathrooms.</li>
+       <br>
+       <h4> Gloss Finish:</h4>
+           <li> Characteristics: High shine, very durable, and reflective.</li>
+          <li>  Uses: Cabinets, doors, and other high-impact areas.</li>
+<br>
+
+       <h4> Varnishes:</h4>
+           <li> Characteristics: Provides a protective coating that can be glossy or satin.</li>
+           <li> Types: Polyurethane, spar varnish (for outdoor use), </li>
+           <li> Uses: Wood furniture, floors, and decorative woodwork.</li>
+       <br>
+    <h4>Metal Finishes</h4>
+        <p>Rust-Preventive Paint:</p>
+           <li> Characteristics: Formulated to prevent rust and corrosion on metal surfaces.</li>
+           <li> Types: Oil-based, water-based.</li>
+           <li> Uses: Metal railings, fences, and outdoor furniture.</li>
+      
+<br>
+<h3>Application Tools and Accessories</h3>
+
+        <h4>  Brushes and Rollers:</h4>
+        <li>Paint Brushes: Available in various sizes and bristle types for different painting tasks.</li>
+        <li> Roller Covers: Different nap lengths for smooth or textured surfaces.</li>
+<br>
+       <h4> Spray Equipment:</h4>
+       <li> Paint Sprayers: Provide a smooth and even coat on large surfaces quickly.</li>
+       <li>Airless Sprayers: Ideal for high-viscosity paints and large projects.</li>
+<br>
+        <h4> Drop Cloths and Tapes:</h4>
+        <li>Drop Cloths: Protect floors and furniture from paint splatters.</li>
+        <li>Painter's Tape: Helps achieve clean lines and protect surfaces from overspray.</li>
+
+
+
+    </section>
+        
+        <section id="PLUMBING SUPPLIES" class="section">
+        <div class="gazebo-content">
+        <div class="background-image" style="background-image: url('jointers.JPG');"></div> 
+    <br> 
+            <h3>Plumbing materials</h3>
+           
+            <h4>Pipes and Fittings</h4>
+    <li>PVC Pipes: Used for drainage, waste, and vent systems; resistant to corrosion and chemicals.</li>
+   <li> CPVC Pipes: Similar to PVC but designed for hot water applications.</li>
+    <li>Copper Pipes: Durable and resistant to corrosion; commonly used for water supply lines.</li>
+    <li>PPR Pipes (Polypropylene Random Copolymer): Used for both hot and cold water applications; known for its flexibility and resistance to high temperatures.</li>
+   <li> Pipe Fittings: Includes elbows, tees, couplings, and reducers, available in various materials like PVC, CPVC, copper, and brass.</li>
+<br>
+<h4>Valves and Faucets.</h4>
+
+   <li> Ball Valves: Provide a shut-off mechanism with a quarter-turn operation.</li>
+    <li>Gate Valves: Used to control flow with a sliding gate mechanism.</li>
+   <li> Check Valves: Prevent backflow by allowing flow in one direction only.</li>
+    <li>Mixing Valves: Used to regulate water temperature in faucets and showers.</li>
+   <li> Sink Faucets: Available in various styles and finishes; include single-handle and dual-handle models.</li>
+   <li> Showerheads: Range from basic models to multi-function, high-pressure, or low-flow options.</li>
+<br>
+<h4>Fixtures and Accessories</h4>
+
+    <li>Toilets: Includes standard, comfort height, and dual-flush models.</li>
+    <li>Sinks: Available in materials like porcelain, stainless steel, and composite; includes kitchen and bathroom sinks.</li>
+    <li>Bathtubs: Includes standard, freestanding, and corner models.</li>
+    <li>Shower Systems: Includes showerheads, hand showers, and complete shower systems with valves and controls.</li>
+   <li> Pipe Insulation: Used to insulate pipes to prevent heat loss and protect against freezing.</li>
+<br>
+<h4>Tools and Maintenance Supplies</h4>
+
+   <li> Pipe Wrenches: Used for gripping and turning pipes.</li>
+   <li> Plumbing Snakes: For clearing clogs in pipes.</li>
+    <li>Sealants and Tapes: Includes PTFE (Teflon) tape and pipe dope for sealing threaded joints.</li>
+   <li> Pipe Cutters: For cutting pipes to the desired length.</li>
+    </section>
+
+    <a href="plumbing pipes.JPG">
+    <img src="plumbing pipes.JPG" width="400" height="250" alt="Plumbing">
+    </a>
+
+    <a href="joints pipes.JPG">
+    <img src="joints pipes.JPG" width="400" height="250" alt="Joint pipe">
+   </a>
+  
+   <a href="jointers.JPG">
+   <img src="jointers.JPG" width="400" height="250" alt="joints">
+   </a>
+   <br><br>
+ 
+    <section id="projects" class="section">
+        <h4>Roofing Materials</h4>
+        <p>We offer a range of roofing materials including tiles, shingles, and metal sheets. Durable and weather-resistant options are available for different building types.</p>
+       
+        <br><br>
+
+        <a href="iron sheet.JPG">
+        <img src="iron sheet.JPG" width="400" height="250" alt="Plumbing">
+       </a>
+
+        <a href="iron sheet 3.JPG">
+        <img src="iron sheet 3.JPG" width="400" height="250" alt="connectors">
+        </a>
+
+        <a href="iron sheet 4.JPG">
+        <img src="iron sheet 4.JPG" width="400" height="250" alt="joints">
+        </a>
+    
+    </section>
+   
+
+ <br>
+ <section id="ELECTRICAL SUPPLIES" class="section">
+    <div class="gazebo-content">
+    <div class="background-image" style="background-image: url('power\ cable2.JPG');"></div> 
+
+  <br>
+        <h3>Electric equipments</h3>
+        <p>Find all your  electrical needs including pipes, fittings, switches, and wiring cables.
+        <br> We stock reliable and high-quality products from leading brands.</p>
+<br>
+        <h4>Electrical Wires:</h4>
+        <li> Includes single-conductor, multi-conductor, and shielded wires for various applications.</li>
+        <li>Cables: Includes power cables, coaxial cables, and data cables for networking and communication.</li>
+    <br>
+    <h4>Circuit Protection</h4>
+    
+        <li>Circuit Breakers: Protect electrical circuits from overloads and short circuits; available in various amperages and types.</li>
+       <li> Fuses: Provide overcurrent protection; available in various ratings and styles.</li>
+       <li> Ground Fault Circuit Interrupters (GFCIs): Provide protection against electrical shock by detecting ground faults.</li>
+    <br>
+   <h4> Switches and Outlets</h4>
+    
+        <li>Light Switches: Includes standard, dimmer, and smart switches.</li>
+       <li> Electrical Outlets: Includes standard, tamper-resistant, and USB-integrated outlets.</li>
+       <li> Power Strips: Provide multiple outlets and often include surge protection.</li>
+    <br>
+    <h4>Lighting Fixtures</h4>
+    
+        <li>Ceiling Lights: Includes flush mounts, chandeliers, and pendant lights.</li>
+       <li> Wall Sconces: Wall-mounted lighting fixtures for accent and ambient lighting.</li>
+       <li> Recessed Lighting: Lights installed into the ceiling, providing a clean, unobtrusive look.</li>
+       <li> Outdoor Lighting: Includes floodlights, garden lights, and security lights.</li>
+    <br>
+    <h4>Electrical Boxes and Panels</h4>
+    
+       <li> Electrical Boxes: Includes junction boxes, outlet boxes, and switch boxes for housing electrical connections.</li>
+        <li>Distribution Panels: Centralized panels that distribute electrical power throughout the building.</li>
+    <br>
+    <h4>Conduit and Raceway Systems</h4>
+    
+       <li> Electrical Conduit: Includes PVC, metal, and flexible conduit for protecting and routing electrical wiring.</li>
+       <li> Raceways: Provide an organized and protected way to route electrical wiring in commercial and industrial settings.</li>
+    <br>
+    <h4>Connectors and Terminals</h4>
+    
+       <li> Wire Nuts: For twisting and connecting multiple wires together.</li>
+       <li> Terminal Blocks: Provide a means of connecting multiple wires in a secure manner.</li>
+       <li> Connectors: Includes spade connectors, butt connectors, and ring terminals for various electrical connections.</li>
+    <br>
+    <h4>Tools and Accessories</h4>
+    
+        <li>Multimeters: For measuring voltage, current, and resistance.</li>
+       <li> Wire Strippers: For removing insulation from electrical wires.</li>
+       <li> Pliers and Cutters: For gripping, cutting, and twisting wires.</li>
+       <li>Electrical Tape: For insulating electrical connections and bundling wires.</li>
+    </section>
+
+    <a href="power cable2.JPG">
+    <img src="power cable2.JPG" width="400" height="250" alt="cables">
+   </a>
+
+   <a href="switches.JPG">
+    <img src="switches.JPG" width="400" height="250" alt="switches"> 
+  </a>
+
+   <a href="barbed wires.JPG">
+    <img src="barbed wires.JPG" width="400" height="250" alt="barbed wires"> 
+   </a>
+    <br><br>
+    <section id="GLASSES AND SERVICES" class="section">
+        <h3>Glass materials and services</h3>
+        <div class="gazebo-content">
+            <div class="background-image" style="background-image: url('office\ partition1.JPG');"></div>
+
+          
+       <h4> Flat Glass</h4>
+
+        <li>Tempered Glass: Heat-treated glass that is stronger and shatters into small pieces if broken.</li>
+        <li>Laminated Glass: Glass with a layer of plastic between two panes, offering safety and sound insulation.</li>
+        <li>Insulated Glass Units (IGUs): Double or triple-glazed glass panels with a sealed airspace for improved thermal insulation.</li>
+    <br>
+   <h4> Decorative Glass</h4>
+    
+      <li>  Frosted Glass: Glass with a matte finish, used for privacy and decorative purposes.</li>
+       <li> Colored Glass: Glass tinted with various colors for aesthetic applications.</li>
+        <li>Textured Glass: Glass with patterns or textures for decorative effects and privacy.</li>
+    <br>
+   <h4> Glass for Facades</h4>
+    
+       <li> Curtain Wall Systems: Glass panels that are part of a building's outer covering, often used in high-rise buildings.
+       <li> Spandrel Glass: Opaque or reflective glass used to cover structural elements in a curtain wall system.</li>
+    <br><br>
+   
+   <h4> Glass Doors and Windows</h4>
+    
+        <li>Sliding Glass Doors: Doors with large glass panels that slide open.</li>
+       <li> Bi-Fold Glass Doors: Doors that fold back on themselves to open.</li>
+        <li>Window Units: Various types of windows including casement, double-hung, and awning windows.</li>
+        <p>We offer a range of roofing materials including tiles, shingles, and metal sheets. Durable and weather-resistant options are available for different building types.</p>
+        <br>
+         </section>
+         <a href="office partition1.JPG">   
+            <img src="office partition1.JPG" width="400" height="250" alt="logo">
+   </a>
+   
+   <a href="table 11.jpg">
+    <img src="table 11.jpg" width="400" height="250" alt="logo">
+  </a>
+  <a href="table9.jpg">
+    <img src="table9.jpg" width="400" height="250" alt="logo">
+  </a>
+
+    <div class="contact-info">
+        <div class="sesiro-content">
+    <h4>Tel:</h4>
+        <p><a href="tel:+256774885716">+256 774885716</a></p>
+        <p><a href="tel:+256779032534">+256 779032534</a></p>
+        <p>Email:<a href="mailto:sesiroinvestments@gmail.com">sesiroinvestments@gmail.com</a></p>
+        <p>Adress: P.O Box 170563 Luwero.</p>
+    </div>
+
+
+</div>      
+<div class="social-media-icons">
+    <a href="https://wa.link/f8yyja"><img src="HZOI2765.JPG" alt="WhatsApp"></a>
+    <a href=" http://www.youtube.com/@SesiroInvestmentLtd"><img src="JYYE3525.JPG" alt="YouTube"></a>
+    <a href="https://www.tiktok.com/@sesiroinvestments?_t=8pvKdimDO3J&_r=1"><img src="MNKD2875.JPG" alt="TikTok" width="25" height="25"></a></li>
+    <a href="https://www.facebook.com/sesiroinvestmentlimited"><img src="JHKQ6201.JPG" alt="Facebook" width="25" height="25"></a></li>
+
+</div>
+
+<footer>
+    <p><marquee>&copy; 2024 Sesiro Investments Limited (SIL). All rights reserved.</marquee></p>
+</footer>
+</div></div>
+
+  </body>
+</html>
